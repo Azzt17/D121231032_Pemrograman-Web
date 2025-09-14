@@ -1,0 +1,57 @@
+/* styling untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* konten utama */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* foto */
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid #000000;
+}
+
+/* judul */
+h1 {
+    text-align: center;
+    color: #b30000;
+}
+
+/* sub-judul */
+h2 {
+    border-bottom: 2px solid #b30000;
+    padding-bottom: 5px;
+    color: #b30000;
+}
+
+/* link */
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b30000;
+    text-decoration: underline; 
+}
+
+/* daftar/list */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
